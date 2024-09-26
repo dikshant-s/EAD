@@ -1,0 +1,54 @@
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+.registerPage{
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  margin-top: 100px;
+}
+
+.registerPage__form{
+  display: grid;
+  width: 200px;
+  text-align: center;
+  margin-left: 500px;
+  margin-top: 200px;
+}
+.registerPage__input > label {
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+.registerPage__input {
+  display: block;
+  margin-bottom: 20px;
+}
+h2 {
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+button {
+  padding: 10px 20px 10px 20px;
+  margin-top: 20px;
+  margin-left: 115px;
+  background-color: aqua;
+  color: white;
+  border: none;
+  border-radius: 18px;
+}
+.registerPage__input > input {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+a{
+  text-decoration: none;
+}
