@@ -1,0 +1,38 @@
+/* General styling */
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#chessBoard {
+  text-align: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(8, 70px); /* Increased the size of each square */
+  grid-template-rows: repeat(8, 70px);    /* Increased the size of each square */
+  gap: 0;
+}
+
+.row div {
+  width: 70px;  /* Increased to match the grid size */
+  height: 70px; /* Increased to match the grid size */
+}
+
+.black {
+  background-color: #000;
+}
+
+.white {
+  background-color: #fff;
+}
+
+/* Add border to the chessboard squares */
+.black, .white {
+  border: 1px solid #888;
+}

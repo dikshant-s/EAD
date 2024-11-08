@@ -1,0 +1,21 @@
+body {
+  background-image: url('./images/image1.jpg');
+  background-repeat: no-repeat; 
+  background-size: cover; 
+  background-position: center; 
+  margin: 0; 
+  height: 100vh;
+}
+
+.homePage__navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(128, 128, 128, 0.7);
+  padding: 15px;
+  border-radius: 4px;
+  z-index: 1; 
+}
+.homePage__navbar > a {
+  text-decoration: none;
+}
