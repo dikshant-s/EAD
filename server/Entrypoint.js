@@ -5,7 +5,6 @@ const cors = require('cors')
 const alienRouter = require('./controller/controllers') 
 const url = "mongodb://localhost:27017/cbitstudent"
 // const url = 'mongodb://127.0.0.1:27020,127.0.0.1:27021,127.0.0.1:27022/cbit?replicaSet=myset'
-// const url = "mongodb+srv://dikshants12314:Dishu%40036@cluster0.lmqme.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 
 const port = process.env.PORT1
 
