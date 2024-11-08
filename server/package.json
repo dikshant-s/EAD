@@ -3,14 +3,20 @@
   "version": "1.0.0",
   "main": "Entrypoint.js",
   "scripts": {
-    "start": "nodemon Entrypoint.js"
+    "start1": "nodemon server.js",
+    "start2": "nodemon server2.js",
+    "dev": "nodemon Entrypoint.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
     "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
     "mongodb": "^6.8.0",
     "mongoose": "^8.5.3"
   },
